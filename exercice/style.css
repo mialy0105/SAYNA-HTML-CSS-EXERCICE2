@@ -1,0 +1,619 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+.menu {
+  display: flex;
+ 
+}
+
+header{
+  background-image: url(./assets/img/header_bg.jpg); 
+}
+
+header .menu{
+  display: flex;
+  justify-content:space-around;
+}
+
+nav{
+  margin-top: 2%;
+  margin-left: 20%;
+}
+nav ul{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  list-style-type: none;
+   
+}
+
+nav ul li{
+  margin: 0% 25%;
+  
+}
+nav ul li a{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, 'Raleway';
+  font-weight: 550;
+ font-size: 15px;
+}
+.logoHeader{
+  width: 10%;
+  margin-top: 2%;
+  margin-right: 5% ;
+  margin-left: 5%;
+  
+}
+.GetIt{
+  margin-top: 2%;
+  margin-right: 20%;
+}
+.GetIt a{
+  color: #3d9f96;
+  font-family: Raleway, Arial, sans-serif ;
+  font-weight: 580;
+  font-size: 15px;
+
+}
+hr{
+  margin-top: 2%;
+  color: #ababab;
+  opacity: 0.1;
+}
+.contentFooterHeader{
+  background-color: #f9f9f9;
+}
+.icon-underHeader{
+  display: flex;
+  justify-content: center;
+}
+
+.ContextHeader{
+  margin-top: 5%;
+  text-align: center;
+
+  
+
+}
+.ContextHeader :not(.newSoft){
+  color:#FFFFFF ;
+}
+.promote{
+  font-family: Open Sans, Arial, sans-serif ;
+  font-size: 30px;
+  font-weight: 200;
+  
+}
+.NewApp{
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  
+}
+.NewApp :not(.check, span){
+  font-family: Open Sans, Arial, sans-serif;
+  opacity: 0.5;
+  margin:5px;
+  font-weight:100;
+  font-size: 15px;
+  font-family: Open Sans, Arial, sans-serif;
+  opacity: 0.5;
+  margin:5px;
+  font-weight:100;
+  font-size: 15px;
+  width: 40%;
+  margin-left: 30%;
+}
+.newSoft{
+  color:#3d9f96 ;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.ContextHeader :not(.newSoft, .Button-BuyNow, .promote, .NewApp,img){
+  font-family: Open Sans, Arial, sans-serif;
+  opacity: 0.5;
+  margin:5px;
+  font-weight:100;
+  font-size: 15px;
+}
+
+.Button-BuyNow{
+  border: 1px solid ;
+  border-color:#3d9f96 ;
+  border-radius: 20px;
+  background-color: #3d9f96;
+  padding: 1%;
+  width: 12%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-family: Raleway, Arial, sans-serif ;
+  font-weight:600;
+}
+
+.social {
+float: left;
+margin: 5px;
+}
+.icon-all{
+  display: flex;
+  justify-content: center;
+  background-image: url(./assets/img/map_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.Icon{
+ 
+  text-align: center;
+  padding: 3%;
+  
+}
+.Icon img{
+  margin-right: 2%;
+}
+.Icon p{
+  font-family: Open Sans, Arial, sans-serif ;
+  font-size: 14px;
+  color: #3d9f96;
+  font-weight:550;
+
+}
+.cercle{
+  text-align: center;
+  background-image: url(./assets/img/header_bg.jpg); 
+  padding: 1%;
+}
+.cercle p{
+  color: #FFFFFF;
+  width: 30%;
+  margin-left: 35%;
+  font-family: Open Sans, Arial, sans-serif;
+  opacity: 0.6;
+ 
+  font-weight:500;
+  font-size: 15px;
+
+}
+.cercle h4{
+  color:#3d9f96 ;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+
+}
+
+.check{
+  text-align: center;
+  margin: 5%;
+  font-family: Open Sans, Arial, sans-serif ;
+  font-size: 30px;
+  font-weight: 200;
+
+}
+
+.textUnder {
+  text-align: center;
+}
+
+.screenshot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Screenshots{
+  padding-right: 5%;
+}
+.C-Screen .check{
+  margin-right:40%;
+}
+.textUnder p{
+  font-family: Open Sans, Arial, sans-serif ;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.responsive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .col1, .col2{
+  width: 35%;
+}
+.TitreResp {
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    font-weight:399;
+}
+
+.resp {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding-left: 2%;
+}
+.responsive :not(img,
+.TitreResp,
+button,
+div,
+span) {
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.3;
+    font-size: 14px;
+    margin: 4px;
+}
+.Button-resp {
+  border: 1px solid;
+  border-color: #3d9f96;
+  border-radius: 20px;
+  background-color: #3d9f96;
+  padding: 4%;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 25%;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.aboutSayna {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 4%;
+}
+
+.SAYNA {
+  margin-left: 20%;
+  width: 50%;
+}
+
+.SAYNA img {
+  width: 100%;
+}
+
+.SAYNA p,
+.cont {
+  font-family: Open Sans, Arial, sans-serif;
+  opacity: 0.2;
+  font-size: 15px;
+  margin: 4px;
+  font-weight: 650;
+  line-height: 190%;
+}
+
+.info {
+  margin-left: 6%;
+  width: 20%;
+}
+
+.contact {
+  margin-right: 15%;
+  width: 50%;
+}
+
+.titreabout {
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+footer p {
+  font-family: Open Sans, Arial, sans-serif;
+  opacity: 0.2;
+  font-size: 15px;
+  margin: 4px;
+  font-weight: 650;
+  margin-top: 2%;
+  margin-left: 12%;
+}
+
+footer .footer-icon {
+  margin-top: 2%;
+  width: 25%;
+}
+
+footer img {
+  width: 7%;
+  padding-right: 3%;
+}
+
+@media screen and (max-width: 786px){
+  .logoHeader{
+    width:5%;
+    
+  }
+  .GetIt{
+    margin-top: 2%;
+    margin-right: 20%;
+  }
+  .GetIt a{
+    color: #3d9f96;
+    font-family: Raleway, Arial, sans-serif ;
+    font-weight: 580;
+    font-size: 15px;
+  
+  }
+  hr{
+    margin-top: 2%;
+    color: #ababab;
+    opacity: 0.1;
+  }
+  .contentFooterHeader{
+    background-color: #f9f9f9;
+  }
+  .icon-underHeader{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ContextHeader{
+    margin-top: 5%;
+    text-align: center;
+  
+    
+  
+  }
+  .ContextHeader :not(.newSoft){
+    color:#FFFFFF ;
+  }
+  .promote{
+    font-family: Open Sans, Arial, sans-serif ;
+    font-size: 30px;
+    font-weight: 200;
+    
+  }
+  .NewApp{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    
+  }
+  .NewApp :not(.check, span){
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.5;
+    margin:5px;
+    font-weight:100;
+    font-size: 15px;
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.5;
+    margin:5px;
+    font-weight:100;
+    font-size: 15px;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .newSoft{
+    color:#3d9f96 ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .ContextHeader :not(.newSoft, .Button-BuyNow, .promote, .NewApp,img){
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.5;
+    margin:5px;
+    font-weight:100;
+    font-size: 15px;
+  }
+  
+  .Button-BuyNow{
+    border: 1px solid ;
+    border-color:#3d9f96 ;
+    border-radius: 20px;
+    background-color: #3d9f96;
+    padding: 1%;
+    width: 12%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-family: Raleway, Arial, sans-serif ;
+    font-weight:600;
+  }
+  
+  .social {
+  float: left;
+  margin: 5px;
+  }
+  .icon-all{
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/img/map_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .Icon{
+   
+    text-align: center;
+    padding: 3%;
+    
+  }
+  .Icon img{
+    margin-right: 2%;
+  }
+  .Icon p{
+    font-family: Open Sans, Arial, sans-serif ;
+    font-size: 14px;
+    color: #3d9f96;
+    font-weight:550;
+  
+  }
+  .cercle{
+    text-align: center;
+    background-image: url(./assets/img/header_bg.jpg); 
+    padding: 1%;
+  }
+  .cercle p{
+    color: #FFFFFF;
+    width: 30%;
+    margin-left: 35%;
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.6;
+   
+    font-weight:500;
+    font-size: 15px;
+  
+  }
+  .cercle h4{
+    color:#3d9f96 ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  
+  }
+  
+  .check{
+    text-align: center;
+    margin: 5%;
+    font-family: Open Sans, Arial, sans-serif ;
+    font-size: 30px;
+    font-weight: 200;
+  
+  }
+  
+  .textUnder {
+    text-align: center;
+  }
+  
+  .screenshot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Screenshots{
+    padding-right: 5%;
+  }
+  .C-Screen .check{
+    margin-right:40%;
+  }
+  .textUnder p{
+    font-family: Open Sans, Arial, sans-serif ;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .responsive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .col1, .col2{
+    width: 35%;
+  }
+  .TitreResp {
+      font-family: 'Raleway', sans-serif;
+      font-size:25px;
+      font-weight:399;
+  }
+  
+  .resp {
+      font-weight: 700;
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      padding-left: 2%;
+  }
+  .responsive :not(img,
+  .TitreResp,
+  button,
+  div,
+  span) {
+      font-family: Open Sans, Arial, sans-serif;
+      opacity: 0.3;
+      font-size: 14px;
+      margin: 4px;
+  }
+  .Button-resp {
+    border: 1px solid;
+    border-color: #3d9f96;
+    border-radius: 20px;
+    background-color: #3d9f96;
+    padding: 4%;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+  
+  .aboutSayna {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 4%;
+  }
+  
+  .SAYNA {
+    margin-left: 20%;
+    width: 50%;
+  }
+  
+  .SAYNA img {
+    width: 100%;
+  }
+  
+  .SAYNA p,
+  .cont {
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.2;
+    font-size: 15px;
+    margin: 4px;
+    font-weight: 650;
+    line-height: 190%;
+  }
+  
+  .info {
+    margin-left: 6%;
+    width: 20%;
+  }
+  
+  .contact {
+    margin-right: 15%;
+    width: 50%;
+  }
+  
+  .titreabout {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+  }
+  
+  footer p {
+    font-family: Open Sans, Arial, sans-serif;
+    opacity: 0.2;
+    font-size: 15px;
+    margin: 4px;
+    font-weight: 650;
+    margin-top: 2%;
+    margin-left: 12%;
+  }
+  
+  footer .footer-icon {
+    margin-top: 2%;
+    width: 25%;
+  }
+  
+  footer img {
+    width: 7%;
+    padding-right: 3%;
+    
+}
+}
